@@ -1,0 +1,52 @@
+.combo {
+    width: 300px;
+    height: 45px;
+    margin: 25px;
+    position: relative;
+    align-items: flex-start;
+    position: relative;
+}
+
+.combo__select {
+    width: auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.selected__container {
+    padding: 5px;
+    margin-right: 10px;
+    background: rgba(51, 170, 51, .1);
+    border-radius: 5px;
+}
+
+.select:hover, i:hover {
+    color: #A1A4FF;
+}
+
+
+.combo__list {
+    width: auto;
+    height: auto;
+    text-align: left;
+    border-radius: 4px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+    position: absolute;
+    z-index: 999;
+}
+
+.combo__list-item {
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.combo__list-item:hover {
+    color: #A1A4FF;
+}

@@ -1,0 +1,31 @@
+.toggle__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+}
+
+.liked {
+    color: red;
+}
+
+.disliked {
+    color: brown;
+}
+
+span {
+    color: black;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.jauge__container {
+    background: brown;
+    width: 50px;
+    height: 2px;
+}
+
+.jauge__like {
+    background: red;
+    width: 50px;
+    height: 2px;
+}
