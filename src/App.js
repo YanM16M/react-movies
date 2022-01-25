@@ -10,6 +10,7 @@ function App() {
         <Router>
             <Switch>
                 <Route path="/home" exact component={Home} />
+                <Route path="/" exact component={Home} />
             </Switch>
         </Router>
     </React.Fragment>
